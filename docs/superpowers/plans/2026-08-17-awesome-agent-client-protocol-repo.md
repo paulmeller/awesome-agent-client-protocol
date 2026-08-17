@@ -215,13 +215,17 @@ Expected: `TOC anchors match headings: [...]` printed, script exits 0.
 
 - [ ] **Step 3: Verify every list item matches the awesome-list format**
 
+Scoped to skip the Contents TOC block, whose anchor links intentionally don't match the resource-entry pattern.
+
 Run:
 ```bash
 python3 - <<'EOF'
 import re
 content = open("README.md").read()
+body = content.split("## Official Resources", 1)[1].split("## Automated Updates", 1)[0]
+body = "## Official Resources" + body
 pattern = re.compile(r'^- \[.+?\]\(https?://\S+\) - [A-Z].*\.$')
-bad = [line for line in content.splitlines() if line.startswith("- [") and not pattern.match(line)]
+bad = [line for line in body.splitlines() if line.startswith("- [") and not pattern.match(line)]
 assert not bad, f"Malformed list lines: {bad}"
 print("All list items match the required format.")
 EOF

@@ -47,8 +47,6 @@
 
 ## Documentation
 
-- [Get Started: Clients](https://agentclientprotocol.com/get-started/clients) - Guide for editor authors building an ACP client.
-- [Get Started: Agents](https://agentclientprotocol.com/get-started/agents) - Guide for agent authors implementing the ACP agent side.
 - [Rust SDK Book](https://agentclientprotocol.github.io/rust-sdk/) - Design and architecture documentation for the Rust SDK.
 - [Python SDK Docs](https://agentclientprotocol.github.io/python-sdk/) - API reference and usage guide for the Python SDK.
 - [TypeScript SDK Docs](https://agentclientprotocol.github.io/typescript-sdk/) - API reference and usage guide for the TypeScript SDK.

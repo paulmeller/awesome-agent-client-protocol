@@ -12,6 +12,8 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    env:
+      CURATOR_SKILL_ID: ${{ secrets.CURATOR_SKILL_ID }}
     steps:
       - uses: actions/checkout@v4
 
@@ -23,6 +25,7 @@ jobs:
         run: pip install anthropic
 
       - name: Run update agent
+        if: env.CURATOR_SKILL_ID != ''
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CURATOR_SKILL_ID: ${{ secrets.CURATOR_SKILL_ID }}

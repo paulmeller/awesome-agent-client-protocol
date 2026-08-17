@@ -100,6 +100,7 @@ Every list item must follow this exact format:
 
 Additional rules:
 - Current sections, in order: Official Resources, SDKs, Editor and Client Implementations, Agent Implementations, Documentation, Articles and Guides, Related Protocols. New categories are welcome if a resource doesn't fit any existing one and there are enough real entries to justify a new section — don't create a section for a single item.
+- If you add a new section, also add a corresponding entry to the "Contents" table of contents at the top of the README, in the same position as the new section.
 - Add new items at the BOTTOM of the appropriate section.
 - Never remove existing items.
 - No License section in the README.

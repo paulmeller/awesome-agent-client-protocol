@@ -4,13 +4,13 @@
 
 ## Contents
 
-* [Official Resources](#official-resources)
-* [SDKs](#sdks)
-* [Editor and Client Implementations](#editor-and-client-implementations)
-* [Agent Implementations](#agent-implementations)
-* [Documentation](#documentation)
-* [Articles and Guides](#articles-and-guides)
-* [Related Protocols](#related-protocols)
+- [Official Resources](#official-resources)
+- [SDKs](#sdks)
+- [Editor and Client Implementations](#editor-and-client-implementations)
+- [Agent Implementations](#agent-implementations)
+- [Documentation](#documentation)
+- [Articles and Guides](#articles-and-guides)
+- [Related Protocols](#related-protocols)
 
 ## Official Resources
 

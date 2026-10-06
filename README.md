@@ -54,6 +54,7 @@
 - [Python SDK Docs](https://agentclientprotocol.github.io/python-sdk/) - API reference and usage guide for the Python SDK.
 - [TypeScript SDK Docs](https://agentclientprotocol.github.io/typescript-sdk/) - API reference and usage guide for the TypeScript SDK.
 - [Rust SDK v2 Quickstart](https://agentclientprotocol.github.io/rust-sdk/protocol-v2-quickstart.html) - Runnable ACP v2 agent and client examples behind the `unstable_protocol_v2` feature flag.
+- [ACP v2 Migration Guide](https://agentclientprotocol.com/protocol/v2/migration) - Breaking changes, new features, and agent, client, and SDK checklists for moving from v1 to the draft v2 protocol while keeping v1 support side by side.
 
 ## Articles and Guides
 

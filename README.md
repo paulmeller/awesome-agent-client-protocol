@@ -39,6 +39,8 @@
 - [agent-shell](https://github.com/xenodium/agent-shell) - Native Emacs buffer for interacting with ACP-powered agents.
 - [ACP Clients Directory](https://agentclientprotocol.com/get-started/clients) - Official listing of every known editor and IDE implementing ACP, including community extensions for VS Code, Obsidian, Qt Creator, and Unity.
 - [ACP for Sublime Text](https://packages.sublimetext.io/packages/ACP) - Sublime Text 4 plugin for running ACP agents such as Claude Code, OpenCode, and Copilot, with persistent sessions and model, mode, and thought-level switching.
+- [Xcode](https://developer.apple.com/documentation/xcode/setting-up-coding-intelligence) - Apple's coding intelligence setup guide, where any agent that supports ACP can be added to Xcode with Add an Agent in Intelligence settings.
+- [devin-tui](https://github.com/fenner888/devin-tui) - Unofficial full-screen terminal UI for Devin driven by `devin acp`, with inline diffs, plans, per-session spend, and a flag to spawn any other ACP agent.
 
 ## Agent Implementations
 
@@ -47,6 +49,7 @@
 - [Cursor CLI ACP Support](https://cursor.com/docs/cli/acp) - Documentation for Cursor CLI's ACP integration.
 - [Goose](https://goose-docs.ai/docs/guides/cli-providers/) - Open-source AI agent that ships native claude-acp and codex-acp providers.
 - [ACP Agents Directory](https://agentclientprotocol.com/get-started/agents) - Official listing of agents implementing ACP, including Gemini CLI, Cline, and OpenHands.
+- [Devin CLI ACP Support](https://docs.devin.ai/cli/acp/zed) - Cognition guide to running Devin CLI as an ACP agent in Zed's Agent Panel, installed from the ACP registry, with companion pages for JetBrains IDEs and Xcode.
 
 ## Documentation
 

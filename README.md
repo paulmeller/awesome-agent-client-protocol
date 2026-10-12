@@ -50,6 +50,8 @@
 - [Goose](https://goose-docs.ai/docs/guides/cli-providers/) - Open-source AI agent that ships native claude-acp and codex-acp providers.
 - [ACP Agents Directory](https://agentclientprotocol.com/get-started/agents) - Official listing of agents implementing ACP, including Gemini CLI, Cline, and OpenHands.
 - [Devin CLI ACP Support](https://docs.devin.ai/cli/acp/zed) - Cognition guide to running Devin CLI as an ACP agent in Zed's Agent Panel, installed from the ACP registry, with companion pages for JetBrains IDEs and Xcode.
+- [Kiro CLI ACP Support](https://kiro.dev/docs/cli/acp/) - Documentation for running `kiro-cli acp` as an ACP agent in JetBrains IDEs, Zed, and other compatible editors, including its supported methods and `_kiro.dev/` extensions.
+- [OpenCode ACP Support](https://opencode.ai/docs/acp/) - Documentation for running `opencode acp` as an ACP subprocess in Zed, JetBrains IDEs, Avante.nvim, and CodeCompanion.nvim.
 
 ## Documentation
 

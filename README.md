@@ -21,6 +21,7 @@
 - [JetBrains x Zed: Open Interoperability for AI Coding Agents](https://blog.jetbrains.com/ai/2025/10/jetbrains-zed-open-interoperability-for-ai-coding-agents-in-your-ide/) - JetBrains' announcement of native ACP support across its IDEs.
 - [ACP v2 Draft Announcement](https://agentclientprotocol.com/announcements/acp-v2-draft) - Announcement of the first draft of protocol version 2, published for review and testing alongside the stable v1.
 - [Rust and TypeScript SDKs Reach 1.0](https://agentclientprotocol.com/announcements/sdk-1-0-releases) - Announcement of `agent-client-protocol` v1.0.0 and `@agentclientprotocol/sdk` v1.0.0, published June 2026.
+- [ACP Registry Repository](https://github.com/agentclientprotocol/registry) - Apache-2.0 registry of agents that support user authentication, checked in CI for valid `authMethods`, with a public JSON index and hourly automatic version updates.
 
 ## SDKs
 
@@ -41,6 +42,8 @@
 - [ACP for Sublime Text](https://packages.sublimetext.io/packages/ACP) - Sublime Text 4 plugin for running ACP agents such as Claude Code, OpenCode, and Copilot, with persistent sessions and model, mode, and thought-level switching.
 - [Xcode](https://developer.apple.com/documentation/xcode/setting-up-coding-intelligence) - Apple's coding intelligence setup guide, where any agent that supports ACP can be added to Xcode with Add an Agent in Intelligence settings.
 - [devin-tui](https://github.com/fenner888/devin-tui) - Unofficial full-screen terminal UI for Devin driven by `devin acp`, with inline diffs, plans, per-session spend, and a flag to spawn any other ACP agent.
+- [Eleven](https://github.com/Zfinix/eleven) - Agent-first reverse-engineering app for macOS where any ACP agent can read code, rename functions, leave notes, and suggest patches on Ghidra analysis while you watch and approve.
+- [littleguys](https://github.com/herval/littleguys) - Free, open-source Mac app that puts Claude Code, Codex, OpenClaw, Hermes, and any ACP agent in WhatsApp-style chats, with a menu-bar status sprite and one-click agents from the ACP registry.
 
 ## Agent Implementations
 

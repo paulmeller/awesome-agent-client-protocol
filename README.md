@@ -29,6 +29,7 @@
 - [TypeScript SDK](https://github.com/agentclientprotocol/typescript-sdk) - Official TypeScript implementation, published to npm as @agentclientprotocol/sdk.
 - [Kotlin SDK](https://agentclientprotocol.com/libraries/kotlin) - Official JVM-targeted Kotlin implementation.
 - [Java SDK](https://github.com/agentclientprotocol/java-sdk) - Official pure-Java implementation for building clients and agents.
+- [Community Libraries](https://agentclientprotocol.com/libraries/community) - Official index of community-maintained ACP libraries for Go, Swift, Crystal, .NET, Dart, and other languages.
 
 ## Editor and Client Implementations
 
@@ -41,6 +42,7 @@
 - [ACP for Sublime Text](https://packages.sublimetext.io/packages/ACP) - Sublime Text 4 plugin for running ACP agents such as Claude Code, OpenCode, and Copilot, with persistent sessions and model, mode, and thought-level switching.
 - [Xcode](https://developer.apple.com/documentation/xcode/setting-up-coding-intelligence) - Apple's coding intelligence setup guide, where any agent that supports ACP can be added to Xcode with Add an Agent in Intelligence settings.
 - [devin-tui](https://github.com/fenner888/devin-tui) - Unofficial full-screen terminal UI for Devin driven by `devin acp`, with inline diffs, plans, per-session spend, and a flag to spawn any other ACP agent.
+- [acpx](https://github.com/openclaw/acpx) - Headless CLI client for stateful ACP sessions across agents such as Codex, Claude Code, Pi, and OpenClaw, with machine-readable output for automation.
 
 ## Agent Implementations
 
@@ -50,6 +52,8 @@
 - [Goose](https://goose-docs.ai/docs/guides/cli-providers/) - Open-source AI agent that ships native claude-acp and codex-acp providers.
 - [ACP Agents Directory](https://agentclientprotocol.com/get-started/agents) - Official listing of agents implementing ACP, including Gemini CLI, Cline, and OpenHands.
 - [Devin CLI ACP Support](https://docs.devin.ai/cli/acp/zed) - Cognition guide to running Devin CLI as an ACP agent in Zed's Agent Panel, installed from the ACP registry, with companion pages for JetBrains IDEs and Xcode.
+- [Codex ACP Adapter](https://github.com/agentclientprotocol/codex-acp) - Official ACP server that exposes Codex CLI to any ACP client, published as `@agentclientprotocol/codex-acp`.
+- [Command Code ACP Support](https://commandcode.ai/docs/acp) - Documentation for running `cmd acp` as an ACP server in Zed and other ACP-compatible editors, with the same tools, skills, permissions, and sessions.
 
 ## Documentation
 

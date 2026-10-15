@@ -41,6 +41,8 @@
 - [ACP for Sublime Text](https://packages.sublimetext.io/packages/ACP) - Sublime Text 4 plugin for running ACP agents such as Claude Code, OpenCode, and Copilot, with persistent sessions and model, mode, and thought-level switching.
 - [Xcode](https://developer.apple.com/documentation/xcode/setting-up-coding-intelligence) - Apple's coding intelligence setup guide, where any agent that supports ACP can be added to Xcode with Add an Agent in Intelligence settings.
 - [devin-tui](https://github.com/fenner888/devin-tui) - Unofficial full-screen terminal UI for Devin driven by `devin acp`, with inline diffs, plans, per-session spend, and a flag to spawn any other ACP agent.
+- [AgentConnect](https://github.com/agentconnect-md/agentconnect) - Open-source (Apache-2.0) platform that brings Claude Code, Codex, Pi, or any ACP-compatible agent into team workflows across Slack, Telegram, Discord, Lark, Google Chat, GitHub, GitLab, Gitea, and Linear.
+- [Octop](https://github.com/TencentCloud/Octop) - Tencent Cloud's self-hosted, multi-user AI assistant (MIT) that serves its agents over ACP with `octop acp` and delegates coding tasks to external ACP agents such as OpenCode and Claude Code.
 
 ## Agent Implementations
 

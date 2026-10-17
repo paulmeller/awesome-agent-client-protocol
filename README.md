@@ -50,6 +50,7 @@
 - [Goose](https://goose-docs.ai/docs/guides/cli-providers/) - Open-source AI agent that ships native claude-acp and codex-acp providers.
 - [ACP Agents Directory](https://agentclientprotocol.com/get-started/agents) - Official listing of agents implementing ACP, including Gemini CLI, Cline, and OpenHands.
 - [Devin CLI ACP Support](https://docs.devin.ai/cli/acp/zed) - Cognition guide to running Devin CLI as an ACP agent in Zed's Agent Panel, installed from the ACP registry, with companion pages for JetBrains IDEs and Xcode.
+- [Octomind](https://github.com/muvon/octomind/blob/master/doc/integration/02-acp-protocol.md) - Open-source Rust coding agent runtime for any model provider, MCP-native, that runs as an ACP agent over stdio via `octomind acp`.
 
 ## Documentation
 

@@ -42,6 +42,7 @@
 - [Xcode](https://developer.apple.com/documentation/xcode/setting-up-coding-intelligence) - Apple's coding intelligence setup guide, where any agent that supports ACP can be added to Xcode with Add an Agent in Intelligence settings.
 - [devin-tui](https://github.com/fenner888/devin-tui) - Unofficial full-screen terminal UI for Devin driven by `devin acp`, with inline diffs, plans, per-session spend, and a flag to spawn any other ACP agent.
 - [Eclipse ACP Connector](https://marketplace.eclipse.org/content/eclipse-acp-connector) - Beta Apache-2.0 plugin for Eclipse IDE that opens a project chat and runs a configurable local ACP agent over stdio, with session history, permission dialogs, and mode, model, and reasoning-level selectors.
+- [ACP Bridge](https://github.com/aws-samples/sample-acp-bridge) - AWS sample (MIT-0) that exposes local CLI agents such as Kiro CLI, Claude Code, and Codex through ACP over HTTP, with SSE streaming, async jobs, and Discord push notifications.
 
 ## Agent Implementations
 
@@ -52,6 +53,8 @@
 - [ACP Agents Directory](https://agentclientprotocol.com/get-started/agents) - Official listing of agents implementing ACP, including Gemini CLI, Cline, and OpenHands.
 - [Devin CLI ACP Support](https://docs.devin.ai/cli/acp/zed) - Cognition guide to running Devin CLI as an ACP agent in Zed's Agent Panel, installed from the ACP registry, with companion pages for JetBrains IDEs and Xcode.
 - [Poolside ACP Support](https://docs.poolside.ai/tools/zed) - Guide to running Poolside in Zed through ACP, installed from the ACP Registry, set up with `pool acp setup --editor zed`, or configured manually as a custom agent.
+- [Grok Build ACP Agent Mode](https://github.com/xai-org/grok-build/blob/main/crates/codegen/xai-grok-pager/docs/user-guide/15-agent-mode.md) - Runs xAI's Grok Build as a long-lived ACP server with `grok agent stdio` or a WebSocket server, for IDEs, SDKs, eval harnesses, and custom apps.
+- [DeepSeek Harness ACP Server](https://github.com/deepseek-ai/deepseek-harness/blob/master/packages/acp/acp/README.md) - Automation-only ACP v1 server (`@deepseek-ai/dsh-acp`) that lets scripts and test runners drive persistent DeepSeek Harness sessions over stdio, started with `dsh --profile acp`.
 
 ## Documentation
 

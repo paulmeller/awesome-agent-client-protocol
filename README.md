@@ -61,6 +61,7 @@
 - [Rust SDK v2 Quickstart](https://agentclientprotocol.github.io/rust-sdk/protocol-v2-quickstart.html) - Runnable ACP v2 agent and client examples behind the `unstable_protocol_v2` feature flag.
 - [ACP v2 Migration Guide](https://agentclientprotocol.com/protocol/v2/migration) - Breaking changes, new features, and agent, client, and SDK checklists for moving from v1 to the draft v2 protocol while keeping v1 support side by side.
 - [Zed External Agents](https://zed.dev/docs/ai/external-agents) - Zed's guide to installing ACP agents from the registry, adding custom agents, importing their threads, forwarding MCP servers, and reading ACP logs with `dev: open acp logs`.
+- [JetBrains AI Assistant ACP Guide](https://www.jetbrains.com/help/ai-assistant/acp.html) - JetBrains documentation for adding ACP agents to AI Chat from the curated registry or as custom agents, with no JetBrains AI subscription required.
 
 ## Articles and Guides
 
@@ -68,6 +69,7 @@
 - [Introducing Emacs agent-shell](https://xenodium.com/introducing-agent-shell) - Walkthrough of building an ACP-powered agent shell for Emacs.
 - [Which Coding Agents Support ACP?](https://agentrq.com/blog/which-coding-agents-support-acp-agent-client-protocol) - AgentRQ table of 33 agents showing native or adapter ACP support, the command that starts each one, and its registry id, as of October 2026.
 - [JetBrains Air in IDEs EAP](https://blog.jetbrains.com/ai/2026/10/air-in-ides-eap/) - JetBrains announcement of Air in its IDEs, which runs Codex, Gemini, GitHub Copilot, Claude Agent, and Junie out of the box and connects other agents through ACP.
+- [Add a Coding Agent to Zed and JetBrains IDEs With ACP](https://dev.to/abishaiama/add-a-coding-agent-to-zed-and-jetbrains-ides-with-the-agent-client-protocol-4o08) - Atlarix walkthrough of adding its `atlarix acp` agent to Zed and JetBrains IDEs, with its modes, models, and permission prompts in the editor's own UI.
 
 ## Related Protocols
 

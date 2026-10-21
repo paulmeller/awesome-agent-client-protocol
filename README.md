@@ -52,6 +52,7 @@
 - [ACP Agents Directory](https://agentclientprotocol.com/get-started/agents) - Official listing of agents implementing ACP, including Gemini CLI, Cline, and OpenHands.
 - [Devin CLI ACP Support](https://docs.devin.ai/cli/acp/zed) - Cognition guide to running Devin CLI as an ACP agent in Zed's Agent Panel, installed from the ACP registry, with companion pages for JetBrains IDEs and Xcode.
 - [Poolside ACP Support](https://docs.poolside.ai/tools/zed) - Guide to running Poolside in Zed through ACP, installed from the ACP Registry, set up with `pool acp setup --editor zed`, or configured manually as a custom agent.
+- [acp-bridge](https://github.com/BlakeHung/acp-bridge) - Rust single-binary adapter that bridges any OpenAI-compatible API to ACP for offline, air-gapped coding agents, supporting ACP v1 and v2. MIT.
 
 ## Documentation
 
@@ -68,6 +69,7 @@
 - [Introducing Emacs agent-shell](https://xenodium.com/introducing-agent-shell) - Walkthrough of building an ACP-powered agent shell for Emacs.
 - [Which Coding Agents Support ACP?](https://agentrq.com/blog/which-coding-agents-support-acp-agent-client-protocol) - AgentRQ table of 33 agents showing native or adapter ACP support, the command that starts each one, and its registry id, as of October 2026.
 - [JetBrains Air in IDEs EAP](https://blog.jetbrains.com/ai/2026/10/air-in-ides-eap/) - JetBrains announcement of Air in its IDEs, which runs Codex, Gemini, GitHub Copilot, Claude Agent, and Junie out of the box and connects other agents through ACP.
+- [A new agent, and nothing else moved](https://openspec-ui.dev/articles/a-new-agent-and-nothing-else-moved/) - OpenSpec Workbench post on adding DeepSeek as an ACP agent via `dsh --profile acp` with one adapter shared by its VS Code extension and web app.
 
 ## Related Protocols
 

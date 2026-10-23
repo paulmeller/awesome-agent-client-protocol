@@ -43,6 +43,7 @@
 - [devin-tui](https://github.com/fenner888/devin-tui) - Unofficial full-screen terminal UI for Devin driven by `devin acp`, with inline diffs, plans, per-session spend, and a flag to spawn any other ACP agent.
 - [Eclipse ACP Connector](https://marketplace.eclipse.org/content/eclipse-acp-connector) - Beta Apache-2.0 plugin for Eclipse IDE that opens a project chat and runs a configurable local ACP agent over stdio, with session history, permission dialogs, and mode, model, and reasoning-level selectors.
 - [acp-tui](https://github.com/FasterPHP/acp-tui) - Preview full-screen terminal client for ACP, built for the integrated terminals of PhpStorm, IntelliJ IDEA, and Zed, with Auggie out of the box and Claude Code, OpenCode, or Codex by configuration.
+- [Volt](https://github.com/LeulAria/volt) - Open-source editor on the VS Code core that runs ACP agents such as Claude Code, Codex and OpenCode, with pending hunk-level edits and a Git checkpoint every turn.
 
 ## Agent Implementations
 

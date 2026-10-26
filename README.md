@@ -43,6 +43,8 @@
 - [devin-tui](https://github.com/fenner888/devin-tui) - Unofficial full-screen terminal UI for Devin driven by `devin acp`, with inline diffs, plans, per-session spend, and a flag to spawn any other ACP agent.
 - [Eclipse ACP Connector](https://marketplace.eclipse.org/content/eclipse-acp-connector) - Beta Apache-2.0 plugin for Eclipse IDE that opens a project chat and runs a configurable local ACP agent over stdio, with session history, permission dialogs, and mode, model, and reasoning-level selectors.
 - [acp-tui](https://github.com/FasterPHP/acp-tui) - Preview full-screen terminal client for ACP, built for the integrated terminals of PhpStorm, IntelliJ IDEA, and Zed, with Auggie out of the box and Claude Code, OpenCode, or Codex by configuration.
+- [ACP VS Code Extension and Web UI](https://github.com/strato-space/acp-plugin) - VS Code extension with an optional browser UI for running ACP agents, using Zed-compatible `agent_servers` configuration.
+- [acp.nvim](https://github.com/zenodea/acp.nvim) - Neovim plugin that runs ACP agents in parallel threads with optional git worktrees, similar to Zed's agent panel.
 
 ## Agent Implementations
 
@@ -63,6 +65,7 @@
 - [Rust SDK v2 Quickstart](https://agentclientprotocol.github.io/rust-sdk/protocol-v2-quickstart.html) - Runnable ACP v2 agent and client examples behind the `unstable_protocol_v2` feature flag.
 - [ACP v2 Migration Guide](https://agentclientprotocol.com/protocol/v2/migration) - Breaking changes, new features, and agent, client, and SDK checklists for moving from v1 to the draft v2 protocol while keeping v1 support side by side.
 - [Zed External Agents](https://zed.dev/docs/ai/external-agents) - Zed's guide to installing ACP agents from the registry, adding custom agents, importing their threads, forwarding MCP servers, and reading ACP logs with `dev: open acp logs`.
+- [TypeScript SDK Stable-by-Default Migration Guide](https://github.com/agentclientprotocol/typescript-sdk/blob/main/MIGRATION_STABLE_UNSTABLE.md) - Upgrade guide for the SDK entrypoint split, where the default import uses stable ACP v1 and unstable or v2 draft features need explicit imports.
 
 ## Articles and Guides
 

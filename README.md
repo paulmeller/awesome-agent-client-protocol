@@ -54,6 +54,7 @@
 - [Devin CLI ACP Support](https://docs.devin.ai/cli/acp/zed) - Cognition guide to running Devin CLI as an ACP agent in Zed's Agent Panel, installed from the ACP registry, with companion pages for JetBrains IDEs and Xcode.
 - [Poolside ACP Support](https://docs.poolside.ai/tools/zed) - Guide to running Poolside in Zed through ACP, installed from the ACP Registry, set up with `pool acp setup --editor zed`, or configured manually as a custom agent.
 - [acplause](https://github.com/anesthetised/acplause) - Experimental ACP v2 agent that talks to editors over stdio and works through any OpenAI-compatible Chat Completions API, OpenRouter first, with streaming reasoning, tool calls, and usage and cost reporting.
+- [CodeWork](https://codework.sh/posts/codework-supports-acp/) - Open-source coding agent CLI whose `codework acp` subcommand runs an ACP v1 server on stdio, sharing session history with the terminal and exposing model and thinking-effort pickers.
 
 ## Documentation
 
@@ -63,6 +64,7 @@
 - [Rust SDK v2 Quickstart](https://agentclientprotocol.github.io/rust-sdk/protocol-v2-quickstart.html) - Runnable ACP v2 agent and client examples behind the `unstable_protocol_v2` feature flag.
 - [ACP v2 Migration Guide](https://agentclientprotocol.com/protocol/v2/migration) - Breaking changes, new features, and agent, client, and SDK checklists for moving from v1 to the draft v2 protocol while keeping v1 support side by side.
 - [Zed External Agents](https://zed.dev/docs/ai/external-agents) - Zed's guide to installing ACP agents from the registry, adding custom agents, importing their threads, forwarding MCP servers, and reading ACP logs with `dev: open acp logs`.
+- [RFD Updates](https://agentclientprotocol.com/rfds/updates) - Lifecycle log of ACP Requests for Dialog, such as the client-set session titles and session status RFDs that moved to Draft in October 2026.
 
 ## Articles and Guides
 

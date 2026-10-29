@@ -43,6 +43,10 @@
 - [devin-tui](https://github.com/fenner888/devin-tui) - Unofficial full-screen terminal UI for Devin driven by `devin acp`, with inline diffs, plans, per-session spend, and a flag to spawn any other ACP agent.
 - [Eclipse ACP Connector](https://marketplace.eclipse.org/content/eclipse-acp-connector) - Beta Apache-2.0 plugin for Eclipse IDE that opens a project chat and runs a configurable local ACP agent over stdio, with session history, permission dialogs, and mode, model, and reasoning-level selectors.
 - [acp-tui](https://github.com/FasterPHP/acp-tui) - Preview full-screen terminal client for ACP, built for the integrated terminals of PhpStorm, IntelliJ IDEA, and Zed, with Auggie out of the box and Claude Code, OpenCode, or Codex by configuration.
+- [ACP Client for VS Code](https://github.com/formulahendry/vscode-acp) - VS Code extension that connects to any ACP agent, with per-agent session lists, session config options, slash commands, permission policies, and protocol traffic logging.
+- [VSCode ACP](https://github.com/omercnet/vscode-acp) - VS Code extension for chatting with Claude Code, OpenCode, and other ACP agents in the editor, published on the VS Code Marketplace and Open VSX.
+- [ACP Patchbay](https://github.com/solutionsunity/acp-patchbay) - Unified VS Code client for any agent in the ACP registry, with one permission model, a declared-versus-used capability matrix, parallel sessions, and editor context over a local MCP server.
+- [Pulsar ACP Agent](https://github.com/hovancik/pulsar-acp-agent) - Pulsar package that runs ACP coding agents from a dock panel, with file, selection, and image attachments and inline permission prompts, diffs, and plans.
 
 ## Agent Implementations
 

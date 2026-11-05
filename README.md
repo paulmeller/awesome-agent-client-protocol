@@ -70,6 +70,7 @@
 - [Introducing Emacs agent-shell](https://xenodium.com/introducing-agent-shell) - Walkthrough of building an ACP-powered agent shell for Emacs.
 - [Which Coding Agents Support ACP?](https://agentrq.com/blog/which-coding-agents-support-acp-agent-client-protocol) - AgentRQ table of 33 agents showing native or adapter ACP support, the command that starts each one, and its registry id, as of October 2026.
 - [JetBrains Air in IDEs EAP](https://blog.jetbrains.com/ai/2026/10/air-in-ides-eap/) - JetBrains announcement of Air in its IDEs, which runs Codex, Gemini, GitHub Copilot, Claude Agent, and Junie out of the box and connects other agents through ACP.
+- [Use Your GitHub Copilot Plan in JetBrains Air](https://blog.jetbrains.com/air/2026/11/github-copilot-in-air/) - JetBrains walkthrough of running the official GitHub Copilot CLI in Air over ACP, locally in the IDE or as Air Teams cloud tasks billed to the Copilot plan, published November 2026.
 
 ## Related Protocols
 

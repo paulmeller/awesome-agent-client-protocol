@@ -54,6 +54,7 @@
 - [Devin CLI ACP Support](https://docs.devin.ai/cli/acp/zed) - Cognition guide to running Devin CLI as an ACP agent in Zed's Agent Panel, installed from the ACP registry, with companion pages for JetBrains IDEs and Xcode.
 - [Poolside ACP Support](https://docs.poolside.ai/tools/zed) - Guide to running Poolside in Zed through ACP, installed from the ACP Registry, set up with `pool acp setup --editor zed`, or configured manually as a custom agent.
 - [acplause](https://github.com/anesthetised/acplause) - Experimental ACP v2 agent that talks to editors over stdio and works through any OpenAI-compatible Chat Completions API, OpenRouter first, with streaming reasoning, tool calls, and usage and cost reporting.
+- [acp-llm-adapter](https://github.com/euri10/acp-llm-adapter) - Rust ACP coding-agent harness for DeepSeek, GLM, and Groq, with permission-gated tools and persistent sessions.
 
 ## Documentation
 
@@ -70,6 +71,8 @@
 - [Introducing Emacs agent-shell](https://xenodium.com/introducing-agent-shell) - Walkthrough of building an ACP-powered agent shell for Emacs.
 - [Which Coding Agents Support ACP?](https://agentrq.com/blog/which-coding-agents-support-acp-agent-client-protocol) - AgentRQ table of 33 agents showing native or adapter ACP support, the command that starts each one, and its registry id, as of October 2026.
 - [JetBrains Air in IDEs EAP](https://blog.jetbrains.com/ai/2026/10/air-in-ides-eap/) - JetBrains announcement of Air in its IDEs, which runs Codex, Gemini, GitHub Copilot, Claude Agent, and Junie out of the box and connects other agents through ACP.
+- [Your IDE Stopped Choosing Your Coding Agent](https://stepto.net/blog/agent-client-protocol-bring-your-own-agent-ide-2026) - StepTo piece for engineering leaders on what ACP changes, comparing it with MCP and A2A and proposing an approved-agent policy and a 90-day rollout plan.
+- [Android Studio Rabbit 2: Run Any AI Agent in Your IDE](https://byteiota.com/android-studio-rabbit-2-bring-your-own-agent/) - Walkthrough from byteiota of Android Studio's ACP-based Bring Your Own Agent feature, covering what connected agents can access, setup, and early stability caveats.
 
 ## Related Protocols
 

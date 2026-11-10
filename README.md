@@ -54,6 +54,7 @@
 - [Devin CLI ACP Support](https://docs.devin.ai/cli/acp/zed) - Cognition guide to running Devin CLI as an ACP agent in Zed's Agent Panel, installed from the ACP registry, with companion pages for JetBrains IDEs and Xcode.
 - [Poolside ACP Support](https://docs.poolside.ai/tools/zed) - Guide to running Poolside in Zed through ACP, installed from the ACP Registry, set up with `pool acp setup --editor zed`, or configured manually as a custom agent.
 - [acplause](https://github.com/anesthetised/acplause) - Experimental ACP v2 agent that talks to editors over stdio and works through any OpenAI-compatible Chat Completions API, OpenRouter first, with streaming reasoning, tool calls, and usage and cost reporting.
+- [Antigravity CLI ACP Support](https://antigravity.google/docs/cli/acp/) - Google Antigravity docs for `agy acp`, which runs Antigravity CLI as an ACP server over stdio for Zed, JetBrains IDEs, Android Studio, Xcode, and other ACP clients.
 
 ## Documentation
 
@@ -70,6 +71,7 @@
 - [Introducing Emacs agent-shell](https://xenodium.com/introducing-agent-shell) - Walkthrough of building an ACP-powered agent shell for Emacs.
 - [Which Coding Agents Support ACP?](https://agentrq.com/blog/which-coding-agents-support-acp-agent-client-protocol) - AgentRQ table of 33 agents showing native or adapter ACP support, the command that starts each one, and its registry id, as of October 2026.
 - [JetBrains Air in IDEs EAP](https://blog.jetbrains.com/ai/2026/10/air-in-ides-eap/) - JetBrains announcement of Air in its IDEs, which runs Codex, Gemini, GitHub Copilot, Claude Agent, and Junie out of the box and connects other agents through ACP.
+- [Your Editor Can Now Use agy as Its Agent over ACP](https://www.vibecoding.cz/en/antigravity-weekly-2026-w45/) - Vibecoding.cz weekly on Antigravity CLI 1.5.0 to 1.5.3, covering `agy acp` session modes, `session/resume`, terminal sign-in with `agy acp --login`, and per-session model selection.
 
 ## Related Protocols
 

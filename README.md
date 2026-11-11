@@ -21,6 +21,7 @@
 - [JetBrains x Zed: Open Interoperability for AI Coding Agents](https://blog.jetbrains.com/ai/2025/10/jetbrains-zed-open-interoperability-for-ai-coding-agents-in-your-ide/) - JetBrains' announcement of native ACP support across its IDEs.
 - [ACP v2 Draft Announcement](https://agentclientprotocol.com/announcements/acp-v2-draft) - Announcement of the first draft of protocol version 2, published for review and testing alongside the stable v1.
 - [Rust and TypeScript SDKs Reach 1.0](https://agentclientprotocol.com/announcements/sdk-1-0-releases) - Announcement of `agent-client-protocol` v1.0.0 and `@agentclientprotocol/sdk` v1.0.0, published June 2026.
+- [Python SDK 1.0.0](https://github.com/agentclientprotocol/python-sdk/releases/tag/1.0.0) - First stable 1.x release of the Python SDK, with v1 bindings tracking `schema-v1.23.0` and experimental v2 bindings, published November 2026.
 
 ## SDKs
 
@@ -54,6 +55,7 @@
 - [Devin CLI ACP Support](https://docs.devin.ai/cli/acp/zed) - Cognition guide to running Devin CLI as an ACP agent in Zed's Agent Panel, installed from the ACP registry, with companion pages for JetBrains IDEs and Xcode.
 - [Poolside ACP Support](https://docs.poolside.ai/tools/zed) - Guide to running Poolside in Zed through ACP, installed from the ACP Registry, set up with `pool acp setup --editor zed`, or configured manually as a custom agent.
 - [acplause](https://github.com/anesthetised/acplause) - Experimental ACP v2 agent that talks to editors over stdio and works through any OpenAI-compatible Chat Completions API, OpenRouter first, with streaming reasoning, tool calls, and usage and cost reporting.
+- [Kimi Code CLI ACP Support](https://www.kimi.com/code/docs/en/kimi-code-cli/guides/ides) - Kimi Code docs guide to running Kimi Code CLI as an ACP agent with `kimi acp` in Zed and JetBrains IDEs.
 
 ## Documentation
 

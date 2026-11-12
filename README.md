@@ -23,6 +23,7 @@
 - [Rust and TypeScript SDKs Reach 1.0](https://agentclientprotocol.com/announcements/sdk-1-0-releases) - Announcement of `agent-client-protocol` v1.0.0 and `@agentclientprotocol/sdk` v1.0.0, published June 2026.
 - [ACP Registry Repository](https://github.com/agentclientprotocol/registry) - Apache-2.0 registry of agents that support user authentication, checked in CI for valid `authMethods`, with a public JSON index and hourly automatic version updates.
 - [Python SDK 1.0.0](https://github.com/agentclientprotocol/python-sdk/releases/tag/1.0.0) - First stable 1.x release of the Python SDK, with v1 bindings tracking `schema-v1.23.0` and experimental v2 bindings, published November 2026.
+- [Client-Provided System Prompts Are Stabilized](https://agentclientprotocol.com/announcements/client-system-prompt-stabilized) - Announcement that the `systemPrompt` field on session setup and the `systemPrompt` session capability are stabilized in ACP v1 and v2, published November 6, 2026.
 
 ## SDKs
 
@@ -114,6 +115,9 @@
 - [Agent Client Protocol (ACP) on tomrochette.com](https://tomrochette.com/agents/protocols/acp/) - Running assessment of ACP with SDK versions, agent-list counts, strengths, criticisms, and a dated change log.
 - [GitHub Copilot Reaches JetBrains Air Through ACP](https://pondero.ai/news/2026-11-05-copilot-jetbrains-air/) - Pondero analysis of GitHub adding Copilot to the JetBrains Air agent picker over ACP instead of a dedicated connector.
 - [Your Editor Can Now Use agy as Its Agent over ACP](https://www.vibecoding.cz/en/antigravity-weekly-2026-w45/) - Vibecoding.cz weekly on Antigravity CLI 1.5.0 to 1.5.3, covering `agy acp` session modes, `session/resume`, terminal sign-in with `agy acp --login`, and per-session model selection.
+- [Nanocoder v1.32.0: ACP Matures](https://nanocollective.org/blog/nanocoder-v1320-acp-matures-a-ci-gate-browser-and-voice-134) - Nano Collective release post on Nanocoder's ACP agent gaining editor-supplied MCP servers per session, `_`-prefixed extension methods, and per-session provider and model.
+- [Mini Me v1.0.6: Custom ACP Extensions](https://mini-me.org/p/20261111-mm-v1-0-6) - k33g release post on letting the ACP client lend its own functions to the Mini Me agent as tools, alongside a native Kronk provider.
+- [Lessons from Putting 14 Coding-Agent CLIs Behind One Interface](https://dev.to/tesseract_app/lessons-from-putting-14-coding-agent-clis-behind-one-interface-gch) - Tesseract write-up on a desktop app where twelve of fourteen agent CLIs share one ACP backend, and where it hosts its own MCP tools to cover what ACP lacks.
 
 ## Related Protocols
 

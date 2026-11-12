@@ -55,6 +55,7 @@
 - [Devin CLI ACP Support](https://docs.devin.ai/cli/acp/zed) - Cognition guide to running Devin CLI as an ACP agent in Zed's Agent Panel, installed from the ACP registry, with companion pages for JetBrains IDEs and Xcode.
 - [Poolside ACP Support](https://docs.poolside.ai/tools/zed) - Guide to running Poolside in Zed through ACP, installed from the ACP Registry, set up with `pool acp setup --editor zed`, or configured manually as a custom agent.
 - [acplause](https://github.com/anesthetised/acplause) - Experimental ACP v2 agent that talks to editors over stdio and works through any OpenAI-compatible Chat Completions API, OpenRouter first, with streaming reasoning, tool calls, and usage and cost reporting.
+- [Cursor Agent ACP Adapter](https://github.com/blowmage/cursor-agent-acp-npm) - Unofficial MIT TypeScript adapter that bridges Cursor CLI to ACP editors such as Zed over stdio, built on `@agentclientprotocol/sdk`.
 
 ## Documentation
 
